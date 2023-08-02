@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
+import MainPage from "./page/MainPage/MainPage";
 
-
-function App() {
+const App: React.FC = () => {
   return (
-    <>Radency</>
+    <>
+      <MainPage />
+    </>
   );
-}
-
+};
 export default App;
