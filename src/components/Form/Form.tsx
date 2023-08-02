@@ -32,12 +32,13 @@ export const Form: React.FC = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
+    if(isOpen){
     if (mode === "edit" && note) {
       setName(note.name);
       setCategory(note.category);
       setContent(note.content);
-    }
-  }, [note, mode]);
+    }}
+  }, [note, mode, isOpen]);
 
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
