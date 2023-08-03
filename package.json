@@ -2,7 +2,7 @@
   "name": "hometask2-radency",
   "version": "0.1.0",
   "homepage": "https://sviatoslava13.github.io/hometask2-radency",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.17.0",
